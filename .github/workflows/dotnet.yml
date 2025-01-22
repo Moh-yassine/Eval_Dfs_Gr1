@@ -1,14 +1,11 @@
-# This workflow will build and test a .NET project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
 name: .NET CI
 
 on:
   push:
-    branches: 
+    branches:
       - main
   pull_request:
-    branches: 
+    branches:
       - main
 
 jobs:
@@ -16,20 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
+     
       - name: Checkout repository
         uses: actions/checkout@v4
 
-     
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 9.0.x 
+          dotnet-version: 9.0.x  
 
       - name: Restore dependencies
         run: dotnet restore ./Eval_Dfs.Tests/Eval_Dfs.Tests.csproj
 
- 
+  
       - name: Build project
         run: dotnet build ./Eval_Dfs.Tests/Eval_Dfs.Tests.csproj --no-restore
 
@@ -37,10 +33,16 @@ jobs:
       - name: Run tests
         run: dotnet test ./Eval_Dfs.Tests/Eval_Dfs.Tests.csproj --no-build --verbosity normal
 
-    
-      - name: Analyze code (optional)
-        run: dotnet sonarscanner begin /k:"your_project_key" /d:sonar.host.url="https://sonarcloud.io"
-      
-    
-      - name: End SonarCloud analysis (optional)
-        run: dotnet sonarscanner end /d:sonar.login="your_sonarqube_token"
+
+      - name: Install SonarScanner
+        run: |
+          dotnet tool install --global dotnet-sonarscanner
+          export PATH="$PATH:/home/runner/.dotnet/tools"
+
+      - name: Begin SonarCloud analysis
+        run: |
+          dotnet sonarscanner begin /k:"your_project_key" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+
+     
+      - name: End SonarCloud analysis
+        run: dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
