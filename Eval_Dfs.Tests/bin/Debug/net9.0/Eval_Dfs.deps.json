@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Eval_Dfs/1.0.0": {
+        "runtime": {
+          "Eval_Dfs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Eval_Dfs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

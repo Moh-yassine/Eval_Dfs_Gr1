@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs.Tests/Eval_Dfs.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs.Tests/Eval_Dfs.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs.Tests/Eval_Dfs.Tests.csproj",
+        "projectName": "Eval_Dfs.Tests",
+        "projectPath": "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs.Tests/Eval_Dfs.Tests.csproj",
+        "packagesPath": "/Users/moh/.nuget/packages/",
+        "outputPath": "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/moh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/Eval_Dfs.csproj": {
+                "projectPath": "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/Eval_Dfs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MSTest": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/moh/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/Eval_Dfs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/Eval_Dfs.csproj",
+        "projectName": "Eval_Dfs",
+        "projectPath": "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/Eval_Dfs.csproj",
+        "packagesPath": "/Users/moh/.nuget/packages/",
+        "outputPath": "/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/moh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/moh/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

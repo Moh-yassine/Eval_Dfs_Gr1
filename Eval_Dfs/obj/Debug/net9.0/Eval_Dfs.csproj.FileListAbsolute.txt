@@ -1,0 +1,15 @@
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/bin/Debug/net9.0/Eval_Dfs
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/bin/Debug/net9.0/Eval_Dfs.deps.json
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/bin/Debug/net9.0/Eval_Dfs.runtimeconfig.json
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/bin/Debug/net9.0/Eval_Dfs.dll
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/bin/Debug/net9.0/Eval_Dfs.pdb
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/Debug/net9.0/Eval_Dfs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/Debug/net9.0/Eval_Dfs.AssemblyInfoInputs.cache
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/Debug/net9.0/Eval_Dfs.AssemblyInfo.cs
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/Debug/net9.0/Eval_Dfs.csproj.CoreCompileInputs.cache
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/Debug/net9.0/Eval_Dfs.sourcelink.json
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/Debug/net9.0/Eval_Dfs.dll
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/Debug/net9.0/refint/Eval_Dfs.dll
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/Debug/net9.0/Eval_Dfs.pdb
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/Debug/net9.0/Eval_Dfs.genruntimeconfig.cache
+/Users/moh/RiderProjects/Eval_Dfs_Gr1/Eval_Dfs/obj/Debug/net9.0/ref/Eval_Dfs.dll
