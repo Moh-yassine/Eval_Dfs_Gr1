@@ -1,31 +1,31 @@
-# This workflow will build a .NET project
+# This workflow will build and test a .NET project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
 
 name: .NET
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" ] 
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main" ]  
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Utilisation de l'environnement Ubuntu le plus récent
+    runs-on: ubuntu-latest  
 
     steps:
-      - uses: actions/checkout@v4  # Vérifier le code source du dépôt
+    - uses: actions/checkout@v4  
 
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4  # Installer .NET SDK
-        with:
-          dotnet-version: 8.0.x  # Vous pouvez ajuster la version .NET si nécessaire (8.0.x ici)
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4  
+      with:
+        dotnet-version: 8.0.x  
 
-      - name: Restore dependencies
-        run: dotnet restore  # Restaurer les dépendances NuGet du projet
+    - name: Restore dependencies
+      run: dotnet restore ./Eval_Dfs.Tests/Eval_Dfs.Tests.csproj  
 
-      - name: Build
-        run: dotnet build --no-restore  # Construire le projet sans restaurer les dépendances (elles ont déjà été restaurées)
+    - name: Build
+      run: dotnet build ./Eval_Dfs.Tests/Eval_Dfs.Tests.csproj --no-restore  
 
-      - name: Test
-        run: dotnet test --no-build --verbosity normal  # Exécuter les tests sans reconstruire le projet
+    - name: Test
+      run: dotnet test ./Eval_Dfs.Tests/Eval_Dfs.Tests.csproj --no-build --verbosity normal 
